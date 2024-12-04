@@ -498,3 +498,28 @@ footer .grid_4 {
         grid-template-columns: 1fr; /* Une seule colonne sur petits écrans */
     }
 }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; /* Couleur du texte */
+    background-color: #4CAF50; /* Couleur de fond */
+    border: 2px solid #4CAF50; /* Bordure */
+    border-radius: 25px; /* Coins arrondis */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+    transform: scale(1.05); /* Agrandir légèrement au survol */
+}
+
+.btn:active {
+    background-color: #3e8e41; /* Couleur lors du clic */
+    transform: scale(0.95); /* Rétrécir légèrement au clic */
+}
